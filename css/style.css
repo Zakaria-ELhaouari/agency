@@ -82,3 +82,59 @@
   animation-duration: 3s;
   animation-delay: 3s;
 }
+
+.services h1 {
+  text-align: center;
+  color: rgb(75, 65, 66);
+}
+
+.services hr {
+  width: 5%;
+  size:"20";
+  height: 3px;
+  border:none;
+  background-color:#34C6D3;
+  margin-left:47.5%;
+  border-radius:10px;
+} 
+.first-line{
+  float:left;
+  width: 33.3%;
+  padding: 2em 3em;  
+}
+
+.first-line ul{
+  list-style: none;
+  text-align: center;
+}
+
+.first-line li{
+font-weight: bold;
+font-size:large;
+}
+
+.second-line{
+  float:left;
+  width: 33.3%;
+  padding: 2em 3em;  
+}
+
+.second-line ul{
+  list-style: none;
+  text-align: center;
+}
+
+.second-line li{
+  font-weight: bold;
+  font-size:large;
+
+}
+
+@media only screen and (max-width:600px){
+  .second-line{
+    width: 100%;
+  }
+  .first-line{
+    width: 100%;
+  }
+}
